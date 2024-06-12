@@ -1,3 +1,4 @@
+-- test
 local inputService = game:GetService("UserInputService")
 local tweenService = game:GetService("TweenService")
 local runService = game:GetService("RunService")
@@ -44,8 +45,8 @@ local themes = {
         EnabledText = Color3.fromRGB(159, 101, 101),
         DisabledText = Color3.fromRGB(120, 120, 120),
         TabToggleEnabled = Color3.fromRGB(167, 78, 78),
-        TabToggleDisabled = Color3.fromRGB(3, 3, 3),
-        TabToggleDisabledMouseOver = Color3.fromRGB(8, 8, 8),
+        TabToggleDisabled = Color3.fromRGB(163, 73, 73),
+        TabToggleDisabledMouseOver = Color3.fromRGB(178, 86, 86),
         Section = Color3.fromRGB(255, 126, 126),
         Button = Color3.fromRGB(163, 81, 81),
         ButtonMouseOver = Color3.fromRGB(173, 91, 91),
