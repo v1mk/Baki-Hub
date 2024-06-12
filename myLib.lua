@@ -37,7 +37,7 @@ local themes = {
     },
 
     BakiHub = {
-        TextColor = Color3.fromRGB(40, 40, 40), -- 
+        TextColor = Color3.fromRGB(255, 255, 255), -- 
         MainFrame = Color3.fromRGB(176, 77, 77),
         TabBackground = Color3.fromRGB(255, 119, 119),
         Tab = Color3.fromRGB(255, 176, 176),
@@ -51,9 +51,9 @@ local themes = {
         ButtonMouseOver = Color3.fromRGB(173, 91, 91),
         ToggleEnabled = Color3.fromRGB(255, 142, 142),
         ToggleEnabledMouseOver = Color3.fromRGB(255, 142, 142),
-        ToggleDisabled = Color3.fromRGB(143, 80, 80),
+        ToggleDisabled = Color3.fromRGB(143, 80,     80),
         ToggleDisabledMouseOver = Color3.fromRGB(143, 80, 80),
-        Box = Color3.fromRGB(168, 115, 115),
+        Box = Color3.fromRGB(255, 164, 164),
         BoxFocused = Color3.fromRGB(255, 165, 165),
         Slider = Color3.fromRGB(204, 114, 114),
         SliderMouseOver = Color3.fromRGB(209, 119, 119),
@@ -320,10 +320,10 @@ function library:Load(opts)
     Image.BackgroundTransparency = 1
     Image.AnchorPoint = Vector2.new(0.5, 0.5)
     Image.Visible = true
-    Image.Position = UDim2.new(0.545, 0, 0.035, 0)
+    Image.Position = UDim2.new(0, 0, 0.437965274, 0)
     Image.Size = UDim2.new(0, 44, 0, 44)
     Image.AutoButtonColor = false
-    Image.Image = "rbxthumb://type=Asset&id=15606460409&w=150&h=150"
+    Image.Image = "rbxassetid://13962184434"
     Image.MouseButton1Click:Connect(function()
     library.toggled = not library.toggled
     venuslib.Enabled = library.toggled
