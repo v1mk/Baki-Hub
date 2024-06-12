@@ -1,4 +1,3 @@
--- test
 local inputService = game:GetService("UserInputService")
 local tweenService = game:GetService("TweenService")
 local runService = game:GetService("RunService")
@@ -38,12 +37,12 @@ local themes = {
     },
 
     BakiHub = {
-        TextColor = Color3.fromRGB(255, 255, 255), -- 
+        TextColor = Color3.fromRGB(40, 40, 40), -- 
         MainFrame = Color3.fromRGB(176, 77, 77),
         TabBackground = Color3.fromRGB(255, 119, 119),
-        Tab = Color3.fromRGB(255, 255, 255),
-        EnabledText = Color3.fromRGB(159, 101, 101),
-        DisabledText = Color3.fromRGB(120, 120, 120),
+        Tab = Color3.fromRGB(255, 176, 176),
+        EnabledText = Color3.fromRGB(255, 255, 255),
+        DisabledText = Color3.fromRGB(211, 211, 211),
         TabToggleEnabled = Color3.fromRGB(167, 78, 78),
         TabToggleDisabled = Color3.fromRGB(163, 73, 73),
         TabToggleDisabledMouseOver = Color3.fromRGB(178, 86, 86),
