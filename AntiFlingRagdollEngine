@@ -29,5 +29,5 @@ AntiFlingFunction = RunService.Stepped:Connect(function()
 	end
 end)
 
-repeat wait(1) until getgenv().AntiFling == false
+getgenv().AntiFling == false
 AntiFlingFunction:Disconnect()
